@@ -44,11 +44,11 @@
 
 };
 
-&pro_micro_i2c {
+&i2c0 {
     status = "okay";
 
     oled: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
+        compatible = "nordic,nrf-twi";
         reg = <0x3c>;
         label = "DISPLAY";
         width = <128>;
