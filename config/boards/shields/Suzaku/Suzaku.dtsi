@@ -16,7 +16,7 @@
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
-        rows = <5>;
+        rows = <4>;
 // | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
 // | SW12 | SW11 | SW10 | SW9  | SW8  | SW7  |                 | SW7  | SW8  | SW9  | SW10 | SW11 | SW12 |
 // | SW18 | SW17 | SW16 | SW15 | SW14 | SW13 | SW30 |   | SW30 | SW13 | SW14 | SW15 | SW16 | SW17 | SW18 |
@@ -45,29 +45,28 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5)  RC(4,6)  RC(3,6) RC(3,7
             ;
     };
 
-    encoder_left: enc_l {
+    left_encoder: encoder_left {
         compatible = "alps,ec11";
-        label = "Encoder_Left";
-        a-gpios = <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        resolution = <2>;
+        label = "LEFT_ENCODER";
+        a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        resolution = <4>;
         status = "disabled";
     };
 
-    encoder_right: enc_r {
+    right_encoder: encoder_right {
         compatible = "alps,ec11";
-        label = "Encoder_Right";
-        a-gpios = <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        resolution = <2>;
+        label = "RIGHT_ENCODER";
+        a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        resolution = <4>;
         status = "disabled";
     };
 
     sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_left &encoder_right>;
+        sensors = <&left_encoder &right_encoder>;
     };
-
 };
 
 &pro_micro_i2c {
