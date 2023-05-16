@@ -1,8 +1,8 @@
 file_format: "1"
-id: lotus58
-name: Lotus58
+id: Suzaku
+name: Suzaku
 type: shield
-url: https://github.com/TweetyDaBird/Lotus58
+url: https://github.com/kileo123
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
@@ -10,5 +10,5 @@ features:
   - display
   - encoder
 siblings:
-  - lotus58_left
-  - lotus58_right
+  - Suzaku_left
+  - Suzaku_right
