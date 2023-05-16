@@ -13,13 +13,13 @@
 #
 ---
 include:
-#  - board: nrfmicro_13
-#    shield: lotus58_left
-#  - board: nrfmicro_13
-#    shield: lotus58_right
+  - board: nrfmicro_13
+    shield: lotus58_left
+  - board: nrfmicro_13
+    shield: lotus58_right
 #  - board: nrfmicro_13
 #    shield: KLAKPad
-  - board: nrfmicro_13
-    shield: Suzaku_left
-  - board: nrfmicro_13
-    shield: Suzaku_right
+#  - board: nrfmicro_13
+#    shield: Suzaku_left
+#  - board: nrfmicro_13
+#    shield: Suzaku_right
