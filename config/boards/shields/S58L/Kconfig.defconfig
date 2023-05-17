@@ -37,4 +37,3 @@ endchoice
 endif # LVGL
 
 endif
-
