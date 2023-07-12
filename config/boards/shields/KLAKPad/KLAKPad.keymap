@@ -20,12 +20,12 @@
         compatible = "zmk,combos";
         combo_layer0 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <16 19>;
+            key-positions = <0 8>;
             bindings = <&to 0>;
         };
         combo_layer1 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <11 14>;
+            key-positions = <1 9>;
             bindings = <&to 1>;
         };
         combo_layer2 {
@@ -71,12 +71,13 @@
 
         arrow_layer {
             bindings = <
-                &none       &kp DELETE      &kp INSERT      &kp TAB         &kp KP_ENTER
-                &none       &kp PAGE_UP     &kp RIGHT_ARROW &kp PAGE_DOWN   &kp LCTRL
-                &none       &kp UP_ARROW    &kp SPACE       &kp DOWN_ARROW  &kp LALT 
-                &kp F5      &kp HOME        &kp LEFT_ARROW  &kp END         &kp SLCK
+            bindings = <
+                &kp A           &kp B           &kp C           &kp D
+                &kp E           &kp F           &kp G           &kp H
+                &kp I           &kp J           &kp K           &none
+                &kp L           &kp M           &kp N           &kp O
+                &kp P           &kp Q           &kp C_MUTE
             >;
-            sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
 
         F_layer {
