@@ -106,92 +106,99 @@
         };
 
         no2_layer {
-            bindings = <
-                &none       &kp BSPC        &kp DELETE      &kp F21         &kp KP_ENTER
-                &none       &kp F14         &kp F17         &kp F20         &kp F24
-                &none       &kp F13         &kp F16         &kp F19         &kp F23
-                &kp C_MUTE  &kp ESC         &kp F15         &kp F18         &kp F22
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         
         no3_layer {
             bindings = <
-                &none       &kp LC(LS(ESC)) &kp LC(LA(DEL)) &kp LC(F22)     &kp LG(LC(F4))
-                &none       &kp LC(F15)     &kp LC(F18)     &kp LC(F21)     &kp LG(LC(RIGHT))
-                &none       &kp LC(F14)     &kp LC(F17)     &kp LC(F20)     &kp LG(LC(LEFT))
-                &kp C_MUTE  &kp LC(F13)     &kp LC(F16)     &kp LC(F19)     &kp LG(LC(D))
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         no4_layer {
             bindings = <
-                &none       &kp KP_SUBTRACT &kp KP_PLUS     &kp KP_MULTIPLY &kp KP_DIVIDE
-                &none       &kp KP_N9       &kp KP_N6       &kp KP_N3       &kp KP_DOT
-                &none       &kp KP_N8       &kp KP_N5       &kp KP_N2       &kp GRAVE
-                &kp C_MUTE  &kp KP_N7       &kp KP_N4       &kp KP_N1       &kp KP_N0
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
             
         no5_layer {
             bindings = <
-                &none       &kp KP_SUBTRACT &kp KP_PLUS     &kp KP_MULTIPLY &kp KP_DIVIDE
-                &none       &kp KP_N9       &kp KP_N6       &kp KP_N3       &kp KP_DOT
-                &none       &kp KP_N8       &kp KP_N5       &kp KP_N2       &kp GRAVE
-                &kp C_MUTE  &kp KP_N7       &kp KP_N4       &kp KP_N1       &kp KP_N0
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         no6_layer {
             bindings = <
-                &none       &kp KP_SUBTRACT &kp KP_PLUS     &kp KP_MULTIPLY &kp KP_DIVIDE
-                &none       &kp KP_N9       &kp KP_N6       &kp KP_N3       &kp KP_DOT
-                &none       &kp KP_N8       &kp KP_N5       &kp KP_N2       &kp GRAVE
-                &kp C_MUTE  &kp KP_N7       &kp KP_N4       &kp KP_N1       &kp KP_N0
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         no7_layer {
             bindings = <
-                &none       &kp KP_SUBTRACT &kp KP_PLUS     &kp KP_MULTIPLY &kp KP_DIVIDE
-                &none       &kp KP_N9       &kp KP_N6       &kp KP_N3       &kp KP_DOT
-                &none       &kp KP_N8       &kp KP_N5       &kp KP_N2       &kp GRAVE
-                &kp C_MUTE  &kp KP_N7       &kp KP_N4       &kp KP_N1       &kp KP_N0
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         no8_layer {
             bindings = <
-                &none       &kp KP_SUBTRACT &kp KP_PLUS     &kp KP_MULTIPLY &kp KP_DIVIDE
-                &none       &kp KP_N9       &kp KP_N6       &kp KP_N3       &kp KP_DOT
-                &none       &kp KP_N8       &kp KP_N5       &kp KP_N2       &kp GRAVE
-                &kp C_MUTE  &kp KP_N7       &kp KP_N4       &kp KP_N1       &kp KP_N0
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         no9_layer {
             bindings = <
-                &none       &kp KP_SUBTRACT &kp KP_PLUS     &kp KP_MULTIPLY &kp KP_DIVIDE
-                &none       &kp KP_N9       &kp KP_N6       &kp KP_N3       &kp KP_DOT
-                &none       &kp KP_N8       &kp KP_N5       &kp KP_N2       &kp GRAVE
-                &kp C_MUTE  &kp KP_N7       &kp KP_N4       &kp KP_N1       &kp KP_N0
+                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
+                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
+                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         settings_layer {
             bindings = <
-                &kp NUMBER_0    &sys_reset      &bootloader     &none
-                &bt BT_CLR      &none           &none           &none
-                &bt BT_SEL 3    &bt BT_SEL 4    &none           &none
-                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none
-                &none           &none           &to 0
+                &kp NUMBER_0     &sys_reset       &bootloader      &none
+                &bt BT_CLR       &none            &none            &none
+                &bt BT_SEL 3     &bt BT_SEL 4     &none            &none
+                &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &none
+                &none            &to 0            &to 0
             >;
         };
     };
