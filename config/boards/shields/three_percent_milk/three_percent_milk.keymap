@@ -10,9 +10,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define DEFAULT 0
-#define NUM 1
-#define ALPHA 2
-#define RGB 3
 
 / {
     keymap {
@@ -20,29 +17,41 @@
  
         default_layer {
             bindings = <
-                &to 1       &kp N1      &bt BT_CLR
-                &kp N2      &kp N3      &kp RET
+                &to 1       &kp N1
+                &kp A       &bt BT_SEL 1
+                &sys_reset  &bt BT_CLR
             >;
         };
 
-        num_layer {
+        first_layer {
             bindings = <
-                &to 2       &kp N4      &bt BT_CLR
-                &kp N5      &kp N6      &kp RET
+                &to 2       &kp N2
+                &kp B       &bt BT_SEL 2
+                &sys_reset  &bt BT_CLR
             >;
         };
 
-        alpha_layer {
+        secnd_layer {
             bindings = <
-                &to 3       &kp A      &bt BT_CLR
-                &kp B       &kp C      &kp RET
+                &to 3       &kp N3
+                &kp C       &bt BT_SEL 3
+                &sys_reset  &bt BT_CLR
             >;
         };
 
-        rgb_layer {
+        third_layer {
             bindings = <
-                &to 0            &rgb_ug RGB_EFF      &bt BT_CLR
-                &rgb_ug RGB_TOG  &kp R                &kp RET
+                &to 4       &kp N4
+                &kp D       &bt BT_SEL 4
+                &sys_reset  &bt BT_CLR
+            >;
+        };
+
+        last_layer {
+            bindings = <
+                &to 0       &kp N5
+                &kp E       &bt BT_SEL 5
+                &sys_reset  &bt BT_CLR
             >;
         };
     };
