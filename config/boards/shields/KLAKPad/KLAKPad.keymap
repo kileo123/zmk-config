@@ -20,53 +20,28 @@
         compatible = "zmk,combos";
         combo_layer0 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 12 16>;
+            key-positions = <3 16>;
             bindings = <&to 0>;
         };
         combo_layer1 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 13 16>;
+            key-positions = <3 12 16>;
             bindings = <&to 1>;
         };
         combo_layer2 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 14 16>;
+            key-positions = <3 8 16>;
             bindings = <&to 2>;
         };
         combo_layer3 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 8 16>;
+            key-positions = <3 4 16>;
             bindings = <&to 3>;
         };
-        combo_layer4 {
-            timeout-ms = <TIMEOUT>;
-            key-positions = <3 9 16>;
-            bindings = <&to 4>;
-        };
-        combo_layer5 {
-            timeout-ms = <TIMEOUT>;
-            key-positions = <3 10 16>;
-            bindings = <&to 5>;
-        };
-        combo_layer6 {
-            timeout-ms = <TIMEOUT>;
-            key-positions = <3 4 16>;
-            bindings = <&to 6>;
-        };
-        combo_layer7 {
-            timeout-ms = <TIMEOUT>;
-            key-positions = <3 5 16>;
-            bindings = <&to 7>;
-        };
-        combo_layer8 {
-            timeout-ms = <TIMEOUT>;
-            key-positions = <3 6 16>;
-            bindings = <&to 8>;
-        };
-        combo_layer10 {
+        combo_layer4 {  // Settings Layer
             timeout-ms = <TIMEOUT>;
             key-positions = <0 3 15 16>;
-            bindings = <&to 9>;
+            bindings = <&to 4>;
         };
     };
 
@@ -84,7 +59,6 @@
 //             8                9                 10               11 (NONE)
 //             12               13                14               15
 //             16               17                18
-
 
         default_layer {
             bindings = <
@@ -120,61 +94,6 @@
         };
         
         no3_layer {
-            bindings = <
-                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
-                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
-                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
-                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
-            >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        no4_layer {
-            bindings = <
-                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
-                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
-                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
-                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
-            >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-            
-        no5_layer {
-            bindings = <
-                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
-                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
-                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
-                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
-            >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        no6_layer {
-            bindings = <
-                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
-                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
-                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
-                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
-            >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        no7_layer {
-            bindings = <
-                &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
-                &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-                &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
-                &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_ENTER
-                &kp KP_N0        &kp KP_DOT       &kp C_MUTE
-            >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        no8_layer {
             bindings = <
                 &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
                 &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
