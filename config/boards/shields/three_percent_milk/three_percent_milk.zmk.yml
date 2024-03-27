@@ -1,8 +1,0 @@
-file_format: "1"
-id: three_percent_milk
-name: 3% Milk
-type: shield
-url: https://github.com/kileo123
-requires: [pro_micro]
-features:
-  - keys
