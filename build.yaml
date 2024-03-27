@@ -17,8 +17,8 @@ include:
 #    shield: lotus58_left
 #  - board: nrfmicro_13
 #    shield: lotus58_right
-#  - board: nrfmicro_13
-#    shield: KLAKPad
+  - board: nrfmicro_13
+    shield: KLAKPad
 #  - board: nrfmicro_13
 #    shield: Suzaku_left
 #  - board: nrfmicro_13
@@ -27,5 +27,5 @@ include:
 #    shield: S58L
 #  - board: nrfmicro_13
 #    shield: S58R
-  - board: nrfmicro_13
-    shield: three_percent_milk
+#  - board: nrfmicro_13
+#    shield: three_percent_milk
