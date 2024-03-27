@@ -106,6 +106,7 @@
         };
 
         no2_layer {
+            bindings = <
                 &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
                 &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
                 &kp KP_N4        &kp KP_N5        &kp KP_N6        &none
