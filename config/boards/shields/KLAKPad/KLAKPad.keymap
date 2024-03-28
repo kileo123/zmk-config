@@ -20,22 +20,22 @@
         compatible = "zmk,combos";
         combo_layer0 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 16>;
+            key-positions = <0 16>;
             bindings = <&to 0>;
         };
         combo_layer1 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 12 16>;
+            key-positions = <0 12 16>;
             bindings = <&to 1>;
         };
         combo_layer2 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 8 16>;
+            key-positions = <0 8 16>;
             bindings = <&to 2>;
         };
         combo_layer3 {
             timeout-ms = <TIMEOUT>;
-            key-positions = <3 4 16>;
+            key-positions = <0 4 16>;
             bindings = <&to 3>;
         };
         combo_layer4 {  // Settings Layer
