@@ -1,7 +1,7 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_SUZAKU_LEFT
+if SHIELD_SUZAKU58_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Suzaku58"
