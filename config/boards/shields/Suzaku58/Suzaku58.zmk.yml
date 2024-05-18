@@ -9,6 +9,7 @@ features:
   - keys
   - display
   - encoder
+  - underglow
 siblings:
   - Suzaku58_left
   - Suzaku58_right
