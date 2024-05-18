@@ -3,8 +3,10 @@ id: Suzaku58
 name: Suzaku58
 type: shield
 url: https://github.com/kileo123
-requires: [pro_micro]
-exposes: [i2c_oled]
+requires: 
+  - pro_micro
+exposes: 
+  - i2c_oled
 features:
   - keys
   - display
