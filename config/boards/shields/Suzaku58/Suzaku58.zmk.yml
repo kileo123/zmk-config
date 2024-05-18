@@ -1,6 +1,6 @@
 file_format: "1"
-id: Suzaku
-name: Suzaku
+id: Suzaku58
+name: Suzaku58
 type: shield
 url: https://github.com/kileo123
 requires: [pro_micro]
