@@ -3,8 +3,6 @@ if SHIELD_S58L
 config ZMK_KEYBOARD_NAME
     default "S58L"
 
-endif
-
 if ZMK_DISPLAY
 
 config I2C
