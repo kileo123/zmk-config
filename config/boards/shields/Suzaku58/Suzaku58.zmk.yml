@@ -10,7 +10,6 @@ exposes:
 features:
   - keys
   - display
-  - encoder
 siblings:
   - Suzaku58_left
   - Suzaku58_right
