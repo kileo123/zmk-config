@@ -10,4 +10,3 @@ exposes:
 features:
   - keys
   - display
-  - encoder

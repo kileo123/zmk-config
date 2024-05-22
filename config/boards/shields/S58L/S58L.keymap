@@ -12,6 +12,10 @@
 
 #define TIMEOUT 50
 
+&led_strip {
+    chain-length = <29>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -38,7 +42,6 @@
                 &kp LCTRL   &kp Z       &kp X      &kp C      &kp V            &kp B            &kp C_MUTE 
                                                    &kp LALT   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp SPACE
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
