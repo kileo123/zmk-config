@@ -12,10 +12,6 @@
 
 #define TIMEOUT 50
 
-&led_strip {
-    chain-length = <29>;
-};
-
 / {
     combos {
         compatible = "zmk,combos";
