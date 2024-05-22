@@ -15,15 +15,25 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_layer0 {
+        combo_0 {
             timeout-ms = <50>;
             key-positions = <1 2 3>;
             bindings = <&bt BT_CLR>;
         };
-        combo_layer1 {
+        combo_1 {
             timeout-ms = <50>;
-            key-positions = <4 5>;
+            key-positions = <5 6>;
             bindings = <&bt BT_SEL 0>;
+        };
+        combo_2 {
+            timeout-ms = <50>;
+            key-positions = <10 11 12>;
+            bindings = <&bootloader>;
+        };
+        combo_3 {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&sys_reset>;
         };
     };
 
@@ -32,12 +42,11 @@
 
         default_layer {
             bindings = <
-                &kp ESC     &kp N1      &kp N2     &kp N3     &kp N4           &kp N5 
-                &kp TAB     &kp Q       &kp W      &kp F      &kp P            &kp G  
-                &kp LSHFT   &kp A       &kp R      &kp S      &kp T            &kp D            &none 
-                &kp LCTRL   &kp Z       &kp X      &kp C      &kp V            &kp B            &kp C_MUTE 
-                                                   &kp LALT   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp SPACE
-            >;
+                &kp ESC     &kp N1      &kp N2     &kp N3     &kp N4    &kp N5 
+                &kp TAB     &kp Q       &kp W      &kp F      &kp P     &kp G  
+                &kp LSHFT   &kp A       &kp R      &kp S      &kp T     &kp D     &none 
+                &kp LCTRL   &kp Z       &kp X      &kp C      &kp V     &kp B     &kp C_MUTE 
+                                                   &kp AT     &kp LGUI  &kp LALT  &kp SPACE
         };
     };
 };
