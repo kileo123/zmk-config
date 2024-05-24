@@ -62,8 +62,8 @@
 
         setting_layer {
             bindings = <
-&bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4                                        &out OUT_TOG        &out OUT_USB        &out OUT_BLE        &none               &sys_reset          &bootloader
-&bt BT_CLR_ALL      &none               &none               &none               &none               &none                                               &none               &none               &none               &none               &none               &none
+&bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4                                        &out OUT_BLE        &none               &none               &none               &sys_reset          &bootloader
+&bt BT_CLR_ALL      &none               &none               &none               &none               &none                                               &out OUT_USB        &none               &none               &none               &none               &none
 &none               &ext_power EP_OFF   &none               &none               &none               &none               &none       &none               &none               &none               &none               &none               &none               &none
 &none               &ext_power EP_ON    &none               &none               &none               &kp N3              &to 0       &to 0               &kp N3              &none               &none               &none               &none               &none
                                                             &none               &none               &to 0               &none       &none               &to 0               &none               &none
